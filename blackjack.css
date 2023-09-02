@@ -1,0 +1,43 @@
+.container{
+    width: 75%;
+    margin: 0px auto;
+    text-align: center;
+    border: 1px solid black;
+ }
+.row1,.row2,.row3{
+    flex-wrap:  wrap;
+    display: flex;
+    padding: 10px ;
+    border: 1px solid black;
+    justify-content: space-around;
+    color: #ffff ;
+
+}
+.row1,.row2{
+   
+    background: url("https://t3.ftcdn.net/jpg/03/33/98/58/360_F_333985870_3LjrtHQCcgo9t7xcNrbUI1vUOQt0DuQ6.jpg")center;
+}
+.row3{
+    color: black;
+    font: 12px
+    ;
+}
+.row1 div{
+    border: 1px solid black;
+    padding: 12px;
+    height: 350px;
+    text-align: center;
+    flex: 1;
+}
+.row1 img{
+    width: 25%;
+    padding: 10px;
+}
+.row2 button{
+    padding: 6px;
+    border: 1px solid black;
+}
+table th,td{
+    padding: 5px ;
+    border:2px solid black;
+}
